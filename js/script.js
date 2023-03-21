@@ -10,8 +10,8 @@
  */
 function calculate () {
   // input
-  let base = parseInt(document.getElementById('base-of-triangle').value);
-  let hight = parseInt(document.getElementById('hight-of-triangle').value);
+  let base = parseFloat(document.getElementById('base-of-triangle').value);
+  let hight = parseFloat(document.getElementById('hight-of-triangle').value);
 
   // process
   let area = (base * hight) / 2;
